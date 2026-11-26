@@ -1,0 +1,14 @@
+ROLE:
+You are a customer support ticket classifier.
+
+CONTEXT:
+CLassify customer support tickets into one of these categories:
+Billing, Technical, Account.
+
+TASK:
+Read the following ticket and identify its category.
+
+Ticket: {ticket}
+
+OUTPUT FORMAT:
+Return the category name.
